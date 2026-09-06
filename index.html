@@ -1,420 +1,258 @@
 <!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Promise Ekeh's Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-<html>
-	<head>
-		<title>Promise Ekeh's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+	<input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<nav id="rail">
+		<span class="rail-mark">PROMISE EKEH</span>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+		<div class="rail-panel">
+			<ul class="rail-nav">
+				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="projects.html">Projects</a></li>
+			</ul>
+			<ul class="rail-social">
+				<li><a href="https://twitter.com/Promisekeh" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/promisecekeh" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/promisekeh/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="https://www.github.com/promiseekeh/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+				<li><a href="https://www.youtube.com/@Promisekeh" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Portfolio</strong></a>
-									
-									<ul class="icons">
-										<li><a href="https://twitter.com/Promisekeh" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.facebook.com/promisecekeh" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-										<li><a href="https://www.linkedin.com/in/promisekeh/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-										<li><a href="https://www.github.com/promiseekeh/" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-										<li><a href="https://www.youtube.com/@Promisekeh" class="icon brands fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
-									</ul>
-								</header>
+		<label for="nav-toggle" class="nav-toggle-btn"><i class="fas fa-bars"></i> Menu</label>
+	</nav>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div>
-										<!-- <div class="content"> -->
-										<header class="p">
-											
-											<h1>Hi, I’m Promise Ekeh</h1>
-										<h2><strong>AI Engineer</strong></h2>
-										</header>
-										
-										<p>
-											I'm a Senior AI/ML Engineer with 6+ years of experience designing, building, and deploying machine learning and generative AI systems across health-tech, energy, and enterprise technology sectors.
-											I hold an MSc in Petroleum Geoscience from Imperial College London and a BSc in Geology from the Federal University of Petroleum Resources.
-											My work spans evaluating and optimising AI models, building end-to-end ML pipelines, and delivering scalable solutions in cloud environments, with hands-on expertise in model lifecycle management, LLM integration, and agentic AI research.
-											I'm adept at working across the full ML lifecycle, from data engineering and experimentation to production deployment, translating complex data into actionable insights for stakeholders in fast-paced, cross-functional environments.
-										</p>
-										<ul class="actions">
-											<li><a href="mailto:promisecekeh@gmail.com" class="button big">Contact Me</a></li>
-										</ul>
-									</div>
+	<main id="main">
+		<div class="wrap">
 
-									<span class="image img">
+			<section id="hero">
+				<div class="hero-text">
+					<h1>Promise Ekeh</h1>
+					<p class="eyebrow-role">AI Engineer</p>
 
-										<img src="images/profile_pix.png" alt="promise Ekeh" />
-									</span>
-								</section>
+					<svg class="wiggle" viewBox="0 0 520 44" preserveAspectRatio="none" aria-hidden="true">
+						<path d="M0.0,19.7 Q10.0,19.7 20.0,13.2 Q30.0,13.2 40.0,26.8 Q50.0,26.8 60.0,9.4 Q70.0,9.4 80.0,22.7 Q90.0,22.7 100.0,19.4 Q110.0,19.4 120.0,8.9 Q130.0,8.9 140.0,22.2 Q150.0,22.2 160.0,10.5 Q170.0,10.5 180.0,21.1 Q190.0,21.1 200.0,11.1 Q210.0,11.1 220.0,9.0 Q230.0,9.0 240.0,19.8 Q250.0,19.8 260.0,28.2 Q270.0,28.2 280.0,14.5 Q290.0,14.5 300.0,13.8 Q310.0,13.8 320.0,26.0 Q330.0,26.0 340.0,33.0 Q350.0,33.0 360.0,23.0 Q370.0,23.0 380.0,19.3 Q390.0,19.3 400.0,37.2 Q410.0,37.2 420.0,8.8 Q430.0,8.8 440.0,28.7 Q450.0,28.7 460.0,17.8 Q470.0,17.8 480.0,11.4 Q490.0,11.4 500.0,9.9 Q510.0,9.9 520.0,17.3" />
+					</svg>
 
-							<!-- Technical Skills Section -->
-								<section>
-									<header class="major">
-										<h2>Technical Skills</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon solid fa-brain"></span>
-											<div class="content">
-												<h3>AI & Generative AI</h3>
-												<p>LLMs, agentic AI systems, supervised fine-tuning (SFT), and RLHF principles.
-													Experienced in prompt engineering, NLP & text analytics, and model interpretability & explainability.</p>
-											</div>
-										</article>
+					<p class="bio">
+						I'm a Senior AI/ML Engineer with 6+ years of experience designing, building, and deploying machine learning and generative AI systems across health-tech, energy, and enterprise technology sectors.
+						I hold an MSc in Petroleum Geoscience from Imperial College London and a BSc in Geology from the Federal University of Petroleum Resources.
+						My work spans evaluating and optimising AI models, building end-to-end ML pipelines, and delivering scalable solutions in cloud environments, with hands-on expertise in model lifecycle management, LLM integration, and agentic AI research.
+						I'm adept at working across the full ML lifecycle, from data engineering and experimentation to production deployment, translating complex data into actionable insights for stakeholders in fast-paced, cross-functional environments.
+					</p>
 
-										<article>
-											<span class="icon solid fa-cogs"></span>
-											<div class="content">
-												<h3>Model Lifecycle & MLOps</h3>
-												<p>MLflow and ClearML for model evaluation, quantisation, and lifecycle tracking.
-													Model optimisation (pruning, distillation, LoRA), Docker, Airflow, GitHub Actions (CI/CD), and ETL automation.</p>
-											</div>
-										</article>
+					<a href="mailto:promisecekeh@gmail.com" class="cta">Contact me</a>
+				</div>
 
-										<article>
-											<span class="icon solid fa-cloud"></span>
-											<div class="content">
-												<h3>Cloud & Infrastructure</h3>
-												<p>AWS (EC2, S3) for deployment and storage, exposure to Azure, and Databricks for data/ML workflows.
-													Git/GitHub for version control and collaboration.</p>
-											</div>
-										</article>
+				<div class="portrait">
+					<img src="images/profile_pix_circle.png" alt="Portrait of Promise Ekeh" />
+				</div>
+			</section>
 
-										<article>
-											<span class="icon solid fa-chart-line"></span>
-											<div class="content">
-												<h3>ML & Data Science</h3>
-												<p>Supervised & unsupervised learning (regression, classification, clustering), feature engineering, and A/B testing & causal inference.
-													Time series forecasting, anomaly detection, and EDA & KPI design.</p>
-											</div>
-										</article>
-
-										<article>
-											<span class="icon solid fa-code"></span>
-											<div class="content">
-												<h3>Programming & Data</h3>
-												<p>Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, SciPy, FastAPI), SQL, PySpark, and Jupyter.</p>
-											</div>
-										</article>
-
-										<article>
-											<span class="icon solid fa-chart-pie"></span>
-											<div class="content">
-												<h3>Visualisation & BI</h3>
-												<p>Power BI, Tableau, and Plotly for insight-driven dashboards that communicate findings clearly to technical and non-technical audiences alike.</p>
-											</div>
-										</article>
-
-										<article>
-											<span class="icon solid fa-users"></span>
-											<div class="content">
-												<h3>Leadership & Collaboration</h3>
-												<p>Stakeholder management, executive communication, and Agile/Scrum (Certified Scrum Master).
-													Experienced in mentoring and workshop facilitation.</p>
-											</div>
-										</article>
-
-									</div>
-								</section>
-
-							<!-- Relevant Projects Section -->
-								<section>
-									<header class="major">
-										<h2>Relevant Projects</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="https://github.com/promiseekeh/seisviz" class="image" target="_blank"><img src="images/seisviz_logo.png" alt="seisviz seismic data visualization library" /></a>
-											<h3>seisviz</h3>
-											<p>
-												A lightweight, PyPI-published Python library for visualizing seismic data — helping geoscientists, researchers, and ML practitioners explore seismic volumes, overlay facies labels, and inspect model predictions with simple, matplotlib-based functions.
-											</p>
-											<ul class="actions">
-												<li><a href="https://github.com/promiseekeh/seisviz" class="button" target="_blank">GitHub</a></li>
-												<li><a href="https://pypi.org/project/seisviz/" class="button" target="_blank">PyPI</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/promiseekeh/CODE-APRIL" class="image" target="_blank"><img src="images/Code April.png" alt="CODE April 30-day coding challenge" /></a>
-											<h3>CODE April</h3>
-											<p>
-												CODE April is a 30-day coding challenge designed by Promise Ekeh to enhance coding skills, foster continuous learning, and engage participants in coding-related activities throughout the month of April. 
-												<!-- This initiative aims to promote coding proficiency, encourage participation in coding exercises, and build a supportive community of learners and developers. -->
-											</p>
-											<ul class="actions">
-												<li><a href="https://github.com/promiseekeh/CODE-APRIL" class="button" target="_blank">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/promiseekeh/Lithology-Prediction-with-Machine-Learning/tree/main/notebooks" class="image" target="_blank"><img src="images/Lithology_Prediction.png" alt="Lithology Prediction" /></a>
-											<h3>Litholog Prediction Using Machine learning</h3>
-											<p>
-												This project applies three ML classification algorithms (XGboost, Random Forest & CATboost) to predict lithology from well logs in the oil and gas industry. 
-												<!-- The focus is on utilizing advanced data analysis techniques to accurately classify different rock types, aiding in better decision-making and resource evaluation. -->
-											</p>
-											<ul class="actions">
-												<li><a href="https://github.com/promiseekeh/Lithology-Prediction-with-Machine-Learning/tree/main/notebooks" class="button" target="_blank">More</a></li>
-											</ul>
-										</article>
-
-										<article>
-											<a href="https://github.com/promiseekeh/Data-Analysis-Projects/blob/main/Time-Series-Analysis/README.md" class="image" target="_blank"><img src="images/climateTS2.png" alt="Daily Climate Time-Series-Analysis" /></a>
-											<h3>Daily Climate Time Series Analysis</h3>
-											<p>This project analyses and visualises weather data collected from Delhi over several years
-												to uncover trends, seasonal patterns, and correlations in weather variables.
-												<!-- It showcases how Python can be leveraged to process and analyze geological data, providing insights into the properties and behaviors of rocks and fluids in the subsurface environment. --></p>
-											<ul class="actions">
-												<li><a href="https://github.com/promiseekeh/Data-Analysis-Projects/blob/main/Time-Series-Analysis/README.md" class="button" target="_blank">More</a></li>
-											</ul>
-										</article>
-
-										<!-- <article>
-											<a href="https://github.com/promiseekeh/Petrophysical-Analysis-with-Python" class="image" target="_blank"><img src="images/petrophysical_analysis.png" alt="Petrophysical Analysis with Python" /></a>
-											<h3>Petrophysical Analysis with Python</h3>
-											<p>This project demonstrates the use of Python programming for conducting detailed petrophysical analysis. 
-												It showcases how Python can be leveraged to process and analyze geological data, providing insights into the properties and behaviors of rocks and fluids in the subsurface environment.</p>
-											<ul class="actions">
-												<li><a href="https://github.com/promiseekeh/Petrophysical-Analysis-with-Python" class="button" target="_blank">More</a></li>
-											</ul>
-										</article> -->
-
-
-										<article>
-											<a href="projects.html" class="image"><img src="images/python_projects.png" alt="python projects" /></a>
-											<h3>Python Projects</h3>
-											<p>A compilation of projects illustrating the applications of Python in data analysis, data science, and machine learning.
-												<!-- These projects highlight the versatility and power of Python as a programming language, showcasing its capabilities in solving real-world problems through data-driven approaches. --></p>
-											<ul class="actions">
-												<li><a href="projects.html#python_projects" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="projects.html#powerbi_projects" class="image"><img src="images/Titanic-PBI.png" alt="Titanic Survival Analysis" /></a>
-											<h3>Power BI Projects</h3>
-											<p>This collection of projects showcases the robust capabilities of Power BI for data visualization and business intelligence.
-												<!-- Power BI, a powerful tool developed by Microsoft, enables users to connect to various data sources, transform raw data into meaningful insights, and create interactive dashboards and reports. --></p>
-											<ul class="actions">
-												<li><a href="projects.html#powerbi_projects" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/promiseekeh/Python-Training" class="image" target="_blank"><img src="images/trainings.png" alt="Data Analysis Training" /></a>
-											<h3>Trainings</h3>
-											<p>
-												Projects related to training sessions and workshops covering key topics in data science, machine learning, and data visualization. 
-												<!-- These training initiatives aim to equip participants with essential skills and knowledge needed to excel in the field of data analysis and related areas. -->
-											</p>
-											<ul class="actions">
-												<li><a href="https://github.com/promiseekeh/Python-Training" class="button" target="_blank">More</a></li>
-											</ul>
-										</article>
-										<!-- <article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>SQL</h3>
-											<p>Covers a range of SQL projects focused on database management, data extraction, transformation, and querying from relational databases.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article> -->
-									</div>
-								</section>
-
-							<!-- YouTube Contents -->
-							<section>
-								<header class="major">
-									<h2>YouTube Contents</h2>
-								</header>
-
-								<div class="mini-posts2">
-									<article>
-										<div class="frame-container">
-											<iframe class="frame" src="https://www.youtube.com/embed/rXdW5Kiaowk?si=5FbmlHQwGzYNH2qj" 
-													title="YouTube video player" allow="accelerometer; autoplay; 
-													clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										</div>
-									</article>
-
-									<article>
-										<div class="frame-container">
-											<iframe class="frame" src="https://www.youtube.com/embed/z2GJM5v2Iuo?si=r91eQQ-SFddVPXZW" 
-													title="YouTube video player" allow="accelerometer; autoplay; 
-													clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										</div>
-									</article>
-									<article>
-										<div class="frame-container">
-											<iframe class="frame" src="https://www.youtube.com/embed/iJSNO8nJGc4?si=6Npl8JkLulYdHKsa" 
-													title="YouTube video player" allow="accelerometer; autoplay; 
-													clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										</div>
-									</article>
-
-									</div>
-									<div class="action">
-										<h4> </h4>
-									<ul class="actions small">
-										<li><a href="https://www.youtube.com/@Promisekeh/videos" class="button icon solid fa-external-link-alt" target="_blank">More Videos</a></li>
-									</ul>
-									</div>
-								</section>
-
-
-								<!-- Conference and Public Speaking Invitation -->
-								<section>
-									<header class="major">
-										<h2>Conferences and Public Speaking Invitations</h2>
-									</header>
-	
-									<div class="mini posts">
-										<article>
-											<span class="image"><img src="images/warri_chapter.jpg" alt="Professional Development Workshop, Warri chapter" /></span>
-											<h4>Professional Development Workshop</h4>
-										</article>
-										<article>
-											<span class="image"><img src="images/WIGE.jpg" alt="Women in Geoscience & Engineering event" /></span>
-											<h4>Women in Geoscience & Engineering</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/NAPEYP.jpeg" alt="NAPE Young Professionals digital geoscience talk" /></span>
-											<h4>Exciting World of Geoscience: The New Era of Digital Geoscience </h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/AAPG_YP_Python_Boot_Camp.png" alt="AAPG Young Professionals Python bootcamp" /></span>
-											<h4>American Association of Petroluem Explorationist- Python Bootcamp</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/proally.jpg" alt="21st Century Energy Professional panel event" /></span>
-											<h4>The 21st Century Energy Professional: Skillset Positioning & Opportunities</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/NAPEICE.jpeg" alt="GeoEnergy Innovation Summit" /></span>
-											<h4>GeoEnergy Innovation Summit: Positioning YP for Future Energy Dynamics</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/GNI.jpeg" alt="Green Network Initiative data visualisation talk" /></span>
-											<h4>Green Network Initiative- Python for Data Visualisation</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/outlier.jpeg" alt="Career in tech panel event" /></span>
-											<h4>Make the Switch to a Career in Tech</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/NAPE_europre.jpeg" alt="NAPE Europe conference presentation" /></span>
-											<h4>Machine Learning Approach to Log-based Litholog Prediction</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/Lecture_hub1.jpg" alt="Data analysis mentoring session" /></span>
-											<h4>Data Analysis Mentoring Session</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/SEGfuta.jpeg" alt="SEG FUTA subsurface geoscience session with CGG experts" /></span>
-											<h4>Exploring Subsurface Geoscience with CGG Experts</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/NAPEYP_sep.jpeg" alt="NAPE Young Professionals AI in energy talk" /></span>
-											<h4>Challenges of applying AI in the Energy Industry</h4>
-										</article>
-
-										<article>
-											<span class="image"><img src="images/NAPEUAP.jpeg" alt="University Assistance Program session" /></span>
-											<h4>University Assistance Program</h4>
-										</article>
-								</section>
-
-
-						</div>
+			<section id="skills">
+				<div class="section-head">
+					<h2>Technical Skills</h2>
+				</div>
+				<div class="skills-list">
+					<div class="skill-row">
+						<h3>AI &amp; Generative AI</h3>
+						<p>LLMs, agentic AI systems, supervised fine-tuning (SFT), and RLHF principles. Prompt engineering, NLP &amp; text analytics, and model interpretability &amp; explainability.</p>
 					</div>
-
-				<!-- Sidebar -->
-					<div id="sidebar" class="sticky">
-						<div class="inner">
-
-							<!-- Search -->
-								<!-- <section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section> -->
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										
-										<li>
-											<span  class="opener" >Projects </span>
-											<ul> 
-
-												<li><a href="projects.html">All projects</a></li>
-												<li><a href="projects.html#python_projects">Python</a></li>
-												<li><a href="projects.html#powerbi_projects">Power BI</a></li>
-												<!-- <li><a href="projects.html">SQL</a><li></li> -->
-
-											</ul>
-										</li>
-										
-									</ul>
-								</nav>
-
-				
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:promisecekeh@gmail.com">promisecekeh@gmail.com</a></li>
-										<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
-										<li class="icon solid fa-home">London, United Kingdom</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<ul class="icons">
-										<li><a href="https://twitter.com/Promisekeh" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.facebook.com/promisecekeh" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-										<li><a href="https://www.linkedin.com/in/promisekeh/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-										<li><a href="https://www.github.com/promiseekeh/" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-										<li><a href="https://www.youtube.com/@Promisekeh" class="icon brands fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
-									</ul>
-									<p class="copyright">&copy; Untitled 2024. All rights reserved.</p>
-								</footer>
-
-						</div>
+					<div class="skill-row">
+						<h3>Model Lifecycle &amp; MLOps</h3>
+						<p>MLflow and ClearML for model evaluation, quantisation, and lifecycle tracking. Model optimisation (pruning, distillation, LoRA), Docker, Airflow, GitHub Actions (CI/CD), and ETL automation.</p>
 					</div>
+					<div class="skill-row">
+						<h3>Cloud &amp; Infrastructure</h3>
+						<p>AWS (EC2, S3) for deployment and storage, exposure to Azure, and Databricks for data/ML workflows. Git/GitHub for version control and collaboration.</p>
+					</div>
+					<div class="skill-row">
+						<h3>ML &amp; Data Science</h3>
+						<p>Supervised &amp; unsupervised learning (regression, classification, clustering), feature engineering, and A/B testing &amp; causal inference. Time series forecasting, anomaly detection, and EDA &amp; KPI design.</p>
+					</div>
+					<div class="skill-row">
+						<h3>Programming &amp; Data</h3>
+						<p>Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, SciPy, FastAPI), SQL, PySpark, and Jupyter.</p>
+					</div>
+					<div class="skill-row">
+						<h3>Visualisation &amp; BI</h3>
+						<p>Power BI, Tableau, and Plotly for insight-driven dashboards that communicate findings clearly to technical and non-technical audiences alike.</p>
+					</div>
+					<div class="skill-row">
+						<h3>Leadership &amp; Collaboration</h3>
+						<p>Stakeholder management, executive communication, and Agile/Scrum (Certified Scrum Master). Mentoring and workshop facilitation.</p>
+					</div>
+				</div>
+			</section>
 
-			</div>
+			<section id="projects">
+				<div class="section-head">
+					<h2>Relevant Projects</h2>
+				</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+				<div class="project-row">
+					<a class="thumb" href="https://github.com/promiseekeh/seisviz" target="_blank"><img src="images/seisviz_logo.png" alt="seisviz seismic data visualization library" style="object-fit:contain; background:#0a0a0a; padding:14px;" /></a>
+					<div class="body">
+						<h3>seisviz</h3>
+						<p>A lightweight, PyPI-published Python library for visualizing seismic data — helping geoscientists, researchers, and ML practitioners explore seismic volumes, overlay facies labels, and inspect model predictions with simple, matplotlib-based functions.</p>
+						<ul class="links">
+							<li><a href="https://github.com/promiseekeh/seisviz" target="_blank">GitHub</a></li>
+							<li><a href="https://pypi.org/project/seisviz/" target="_blank">PyPI</a></li>
+						</ul>
+					</div>
+				</div>
 
-	</body>
+				<div class="project-row">
+					<a class="thumb" href="https://www.linkedin.com/posts/napenigeria_nape-nape2026-napehackathon-share-7501225501026353152-K_CL/" target="_blank"><img src="images/hackathon2026_thumb.jpg" alt="NAPE AICE 2026 Hackathon flyer" /></a>
+					<div class="body">
+						<h3>NAPE AICE 2026 Hackathon — Programme Lead</h3>
+						<p>Leading the design and delivery of a 48-hour AI hackathon at NAPE's 2026 Annual International Conference &amp; Exhibition, themed "Unlocking Dormant Value" — focused on unlocking value from legacy energy data. I designed the challenge framework, participant screening and interview process, data strategy, technical requirements, training programme, and judging criteria, while coordinating a multidisciplinary delivery team and wider NAPE stakeholders.</p>
+						<ul class="links">
+							<li><a href="https://www.linkedin.com/posts/napenigeria_nape-nape2026-napehackathon-share-7501225501026353152-K_CL/" target="_blank">Announcement</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="https://etfinitiative.org/" target="_blank"><img src="images/Empower_her_logo.png" alt="Empower Her, Empower the Future logo" style="object-fit:contain; background:#f6f3ee; padding:14px;" /></a>
+					<div class="body">
+						<h3>Empower Her — Empower the Future</h3>
+						<p>Founded by Promise Ekeh, Empower the Future Innovators Initiative runs Empower Her, a program providing digital literacy training, mentorship, and access to technology for young girls. Its inaugural workshop on 7 March 2025 drew 300+ attendees; Phase 2 selected 30 girls for a year-long mentorship programme now concluding.</p>
+						<ul class="links">
+							<li><a href="https://etfinitiative.org/" target="_blank">Website</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="https://github.com/promiseekeh/CODE-APRIL" target="_blank"><img src="images/Code April.png" alt="CODE April 30-day coding challenge" /></a>
+					<div class="body">
+						<h3>CODE April</h3>
+						<p>CODE April is a 30-day coding challenge designed by Promise Ekeh to enhance coding skills, foster continuous learning, and engage participants in coding-related activities throughout the month of April.</p>
+						<ul class="links">
+							<li><a href="https://github.com/promiseekeh/CODE-APRIL" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="https://github.com/promiseekeh/Lithology-Prediction-with-Machine-Learning/tree/main/notebooks" target="_blank"><img src="images/Lithology_Prediction.png" alt="Lithology Prediction" /></a>
+					<div class="body">
+						<h3>Litholog Prediction Using Machine Learning</h3>
+						<p>This project applies three ML classification algorithms (XGboost, Random Forest &amp; CATboost) to predict lithology from well logs in the oil and gas industry.</p>
+						<ul class="links">
+							<li><a href="https://github.com/promiseekeh/Lithology-Prediction-with-Machine-Learning/tree/main/notebooks" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="https://github.com/promiseekeh/Data-Analysis-Projects/blob/main/Time-Series-Analysis/README.md" target="_blank"><img src="images/climateTS2.png" alt="Daily Climate Time-Series-Analysis" /></a>
+					<div class="body">
+						<h3>Daily Climate Time Series Analysis</h3>
+						<p>This project analyses and visualises weather data collected from Delhi over several years to uncover trends, seasonal patterns, and correlations in weather variables.</p>
+						<ul class="links">
+							<li><a href="https://github.com/promiseekeh/Data-Analysis-Projects/blob/main/Time-Series-Analysis/README.md" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="projects.html#python_projects"><img src="images/python_projects.png" alt="Python projects" /></a>
+					<div class="body">
+						<h3>Python Projects</h3>
+						<p>A compilation of projects illustrating the applications of Python in data analysis, data science, and machine learning.</p>
+						<ul class="links">
+							<li><a href="projects.html#python_projects">See all</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="projects.html#powerbi_projects"><img src="images/Titanic-PBI.png" alt="Titanic Survival Analysis" /></a>
+					<div class="body">
+						<h3>Power BI Projects</h3>
+						<p>This collection of projects showcases the robust capabilities of Power BI for data visualization and business intelligence.</p>
+						<ul class="links">
+							<li><a href="projects.html#powerbi_projects">See all</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project-row">
+					<a class="thumb" href="https://github.com/promiseekeh/Python-Training" target="_blank"><img src="images/trainings.png" alt="Data Analysis Training" /></a>
+					<div class="body">
+						<h3>Trainings</h3>
+						<p>Projects related to training sessions and workshops covering key topics in data science, machine learning, and data visualization.</p>
+						<ul class="links">
+							<li><a href="https://github.com/promiseekeh/Python-Training" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section id="videos">
+				<div class="section-head">
+					<h2>YouTube Contents</h2>
+				</div>
+				<div class="video-grid">
+					<div class="video-frame">
+						<iframe src="https://www.youtube.com/embed/rXdW5Kiaowk?si=5FbmlHQwGzYNH2qj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video-frame">
+						<iframe src="https://www.youtube.com/embed/z2GJM5v2Iuo?si=r91eQQ-SFddVPXZW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video-frame">
+						<iframe src="https://www.youtube.com/embed/iJSNO8nJGc4?si=6Npl8JkLulYdHKsa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video-frame">
+						<iframe src="https://www.youtube.com/embed/MeGAaHVFyFM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<p style="margin-top:18px;"><a href="https://www.youtube.com/@Promisekeh/videos" target="_blank" style="color:var(--teal); border-bottom:1px solid currentColor;">More videos on YouTube</a></p>
+			</section>
+
+			<section id="conferences">
+				<div class="section-head">
+					<h2>Conferences &amp; Public Speaking Invitations</h2>
+				</div>
+				<div class="gallery">
+					<figure><img src="images/warri_chapter.jpg" alt="Professional Development Workshop, Warri chapter" /><figcaption>Professional Development Workshop</figcaption></figure>
+					<figure><img src="images/WIGE.jpg" alt="Women in Geoscience & Engineering event" /><figcaption>Women in Geoscience &amp; Engineering</figcaption></figure>
+					<figure><img src="images/NAPEYP.jpeg" alt="NAPE Young Professionals digital geoscience talk" /><figcaption>Exciting World of Geoscience: The New Era of Digital Geoscience</figcaption></figure>
+					<figure><img src="images/AAPG_YP_Python_Boot_Camp.png" alt="AAPG Young Professionals Python bootcamp" /><figcaption>American Association of Petroluem Explorationist – Python Bootcamp</figcaption></figure>
+					<figure><img src="images/proally.jpg" alt="21st Century Energy Professional panel event" /><figcaption>The 21st Century Energy Professional: Skillset Positioning &amp; Opportunities</figcaption></figure>
+					<figure><img src="images/NAPEICE.jpeg" alt="GeoEnergy Innovation Summit" /><figcaption>GeoEnergy Innovation Summit: Positioning YP for Future Energy Dynamics</figcaption></figure>
+					<figure><img src="images/GNI.jpeg" alt="Green Network Initiative data visualisation talk" /><figcaption>Green Network Initiative – Python for Data Visualisation</figcaption></figure>
+					<figure><img src="images/outlier.jpeg" alt="Career in tech panel event" /><figcaption>Make the Switch to a Career in Tech</figcaption></figure>
+					<figure><img src="images/NAPE_europre.jpeg" alt="NAPE Europe conference presentation" /><figcaption>Machine Learning Approach to Log-based Litholog Prediction</figcaption></figure>
+					<figure><img src="images/Lecture_hub1.jpg" alt="Data analysis mentoring session" /><figcaption>Data Analysis Mentoring Session</figcaption></figure>
+					<figure><img src="images/SEGfuta.jpeg" alt="SEG FUTA subsurface geoscience session with CGG experts" /><figcaption>Exploring Subsurface Geoscience with CGG Experts</figcaption></figure>
+					<figure><img src="images/NAPEYP_sep.jpeg" alt="NAPE Young Professionals AI in energy talk" /><figcaption>Challenges of Applying AI in the Energy Industry</figcaption></figure>
+					<figure><img src="images/NAPEUAP.jpeg" alt="University Assistance Program session" /><figcaption>University Assistance Program</figcaption></figure>
+				</div>
+			</section>
+
+			<footer id="footer">
+				<span>&copy; 2024 Promise Ekeh</span>
+				<a href="mailto:promisecekeh@gmail.com">promisecekeh@gmail.com</a>
+				<span>London, United Kingdom</span>
+			</footer>
+
+		</div>
+	</main>
+
+</body>
 </html>
